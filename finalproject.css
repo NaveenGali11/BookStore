@@ -1,0 +1,44 @@
+#banner-image{
+    padding-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-image:url("images/background.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#banner_content {
+    padding: 150px;
+    border:0px;
+    background-color: transparent;
+    color:white;
+    margin:0px;
+
+}
+
+footer{
+    position:static;
+    background-color: #3d3d3d;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    font-weight: 300;
+}
+.modal-footer {
+    text-align: left;
+}
+.panel{
+   margin-top: 40px;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.columnf{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
